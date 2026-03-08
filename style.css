@@ -18,6 +18,14 @@ header {
     background: rgba(17, 17, 17, 0.4);
 }
 
+.navbar img {
+    transition: all 0.5s linear;
+}
+.navbar img:hover {
+    background-color: rgba(248, 247, 247, 0.1);
+    transform: scale(0.9);
+}
+
 .navbar nav a {
     margin-left: 40px;
     text-decoration: none;
@@ -26,6 +34,14 @@ header {
     font-size: 24px;
     text-align: left;
     font-weight: 500;
+    transition: color 1 ease-in;
+}
+
+.navbar nav a:hover {
+    color: #1F6F78;
+}
+.navbar nav a:active {
+    color: white;
 }
 
 /* Home section start */
@@ -108,12 +124,31 @@ header {
     background-color: #1F6F78;
     color: white;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.5s;
+}
+
+.home-section-left .primary:hover {
+    background-color: rgb(31, 111, 120, 0.75);
+}
+
+.home-section-left .primary:active {
+    background-color: #1F6F78;
 }
 
 .home-section-left .outline {
+    background-color: none;
     border: 2px solid #1F6F78;
     color: #1F6F78;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.5s;
+}
+
+.home-section-left .outline:hover {
+    background-color: rgba(0, 0, 0, 0.10);
+}
+
+.home-section-left .outline:active {
+    background-color: none;
 }
 
 .home-section-left .socials {
@@ -125,11 +160,23 @@ header {
 
 }
 
+.home-section-left .socials  {
+    transition: all 1 ease-in;
+}
+
+.home-section-left .socials :hover {
+    transform: scale(1.1);
+}
+
+.home-section-left .socials :active {
+    transform: scale(1);
+}
+
 .home-section-right img {
     max-width: 100%;
     height: auto;
     object-fit: cover;
-    transform: translate(0px, 82px);
+    transform: translate(0px, 119px);
 }
 
 /* About section start */
@@ -408,6 +455,15 @@ header {
     background-color: #1F6F78;
     color: white;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.5s;
+}
+
+.achievements-section .primary:hover {
+    background-color: rgb(31, 111, 120, 0.75);
+}
+
+.achievements-section .primary:active {
+    background-color: #1F6F78;
 }
 
 /* Education section start */
@@ -755,6 +811,15 @@ header {
     background-color: #1F6F78;
     color: white;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.5s;
+}
+
+.contact-section .primary:hover {
+    background-color: rgb(31, 111, 120, 0.75);
+}
+
+.contact-section .primary:active {
+    background-color: #1F6F78;
 }
 
 .contact-section .content-right {
