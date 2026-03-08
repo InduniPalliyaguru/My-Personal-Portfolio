@@ -255,6 +255,14 @@ header {
     justify-content: center;
 }
 
+.skills .row img {
+    transition: all 0.5s linear;
+}
+
+.skills .row img:hover {
+    transform: scale(1.1);
+}
+
 .interest {
     display: flex;
     margin-top: 18px;
@@ -516,6 +524,7 @@ header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    transition: all 1s ease-in;
 }
 
 .experience-card {
@@ -527,6 +536,14 @@ header {
     margin: 30px;
     border-radius: 16px;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.35);
+}
+
+.experience-content .content-bottom .experience-card:hover {
+    transform: translateY(-15px);
+}
+
+.experience-content .content-top .experience-card:hover {
+    transform: translateY(-15px);
 }
 
 .experience-card h3 {
@@ -584,6 +601,16 @@ header {
     margin-left: 355px;
 }
 
+.project-content .project-card {
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+
+.project-content .project-card:hover {
+    opacity: 1;
+}
+
+
 .project-card {
     display: block;
     background: rgba(17, 17, 17, 0.5);
@@ -635,6 +662,17 @@ header {
     border: 2px solid #1F6F78;
     color: #ffffff;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: all 0.5s linear;
+}
+
+.project-section .outline:hover {
+    transform: translateY(-10px);
+    border: 2px solid white;
+}
+
+.project-section .outline:active {
+    transform: translateY(-10px);
+    border: 2px solid #1F6F78;
 }
 
 /* Assignment section start */
@@ -673,6 +711,11 @@ header {
     border-radius: 20px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     display: block;
+    transition: all 0.5s ease-in;
+}
+
+.assignment-content .grid .card:hover {
+    transform: scale(0.9);
 }
 
 
@@ -693,6 +736,11 @@ header {
     font-weight: 700;
     font-style: italic;
     color: #1F717A;
+    transition: color 0.5s linear;
+}
+
+.assignment-content .grid .card .card-footer a:hover {
+    color: rgba(10, 10, 10, 1);
 }
 
 /* Gallery section start */
@@ -730,6 +778,13 @@ header {
     gap: 0px;
 }
 
+.gallery-section .gallery-content .grid img {
+    transition: all 1s ease-in-out;
+}
+
+.gallery-section .gallery-content .grid img:hover {
+    transform: scale(0.9);
+}
 .gallery-section .gallery-content .grid .card3 {
     grid-column: span 2;
 }
@@ -849,6 +904,17 @@ header {
 .contact-section .content-right .contact-socials {
     margin-left: 100px;
     margin-top: 140px;
+    transition: all 1s ease-in;
+}
+
+.contact-section .content-right .contact-socials img {
+    transition: all 0.5s ease-in;
+}
+.contact-section .content-right .contact-socials img:hover {
+    transform: translateY(-6px);
+}
+.contact-section .content-right .contact-socials img:active {
+    transform: scale(1.1);
 }
 
 .contact-section .content-right .contact-details {
@@ -880,4 +946,23 @@ footer {
     font-family: "Inria Serif", serif;
     margin-top: 90px;
     font-size: 20px;
+}
+
+.footer-content a img {
+    transition: all 1s linear;
+}
+.footer-content a img:hover {
+    transform: scale(0.9);
+}
+
+.footer-socials a img {
+    transition: all 1 ease-in;
+}
+
+.footer-socials a img :hover {
+    transform: scale(1.1);
+}
+
+.footer-socials a img :active {
+    transform: scale(1);
 }
