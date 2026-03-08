@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Portfolio</title>
     <link rel="icon" type="image/png" href="assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lalezar&family=Linden+Hill:ital@0;1&family=Lisu+Bosa:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mate+SC&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -28,9 +35,11 @@
 
         <div class="home-section-left">
 
-            <p class="hello">Hello I'm</p>
-            <h1>Induni<br>Palliyaguru</h1>
-            <p class="role">Web Developer & UI/UX Designer</p>
+            <div class="text">
+                <p class="hello">Hello I'm</p>
+                <h1>Induni<br>Palliyaguru</h1> <br><br>
+                <p class="role">Web Developer & UI/UX Designer</p>
+            </div>
 
             <div class="button">
                 <a href="#contact" class="btn primary">Get Hired</a>
@@ -38,8 +47,10 @@
             </div>
 
             <div class="socials">
-                <a href="https://www.instagram.com/duni.2025?igsh=cnRwN3MxcWRqaTlk"> <img src="assets/instergram.png" alt="instergram"></a>
-                <a href="www.linkedin.com/in/induni-palliyaguru-6195a9371"> <img src="assets/linkden.png" alt="linkden"></a>
+                <a href="https://www.instagram.com/duni.2025?igsh=cnRwN3MxcWRqaTlk"> <img src="assets/instergram.png"
+                        alt="instergram"></a>
+                <a href="www.linkedin.com/in/induni-palliyaguru-6195a9371"> <img src="assets/linkden.png"
+                        alt="linkden"></a>
                 <a href="https://github.com/InduniPalliyaguru"> <img src="assets/github.png" alt="github"></a>
                 <a href="https://www.facebook.com/share/1BrgRKYiJg/"> <img src="assets/facebook.png" alt="facebook"></a>
             </div>
@@ -54,7 +65,7 @@
     <section id="about" class="about-section">
 
         <div class="section-title">
-            <h1>About</h1>
+            <h2>About</h2>
             <p>A brief introduction about who I am, what I do, and what I aim for.</p>
         </div>
 
@@ -62,20 +73,27 @@
 
             <div class="about-left">
                 <h2>About Me</h2>
-                <p>I am Induni Palliyaguru, a Software Engineering student at IJSE, focused on web development and UI/UX
-                    design, passionate about building clean and user-friendly applications, continuously learning new
-                    technologies through practical projects, and aiming to become a skilled software engineer who
+                <p>I am Induni Palliyaguru, a Software Engineering student at IJSE, focused on web development <br> and
+                    UI/UX
+                    design, passionate about building clean and user-friendly applications, continuously <br> learning
+                    new
+                    technologies through practical projects, and aiming to become a skilled software <br> engineer who
                     contributes to meaningful digital solutions.</p>
 
                 <h2>Skills</h2>
                 <div class="skills">
-                    <img src="assets/css.png" alt="css">
-                    <img src="assets/docker.png" alt="docker">
-                    <img src="assets/html.png" alt="html">
-                    <img src="assets/java.png" alt="java">
-                    <img src="assets/postgre.png" alt="postgre">
-                    <img src="assets/python.png" alt="python">
-                    <img src="assets/sql.png" alt="sql">
+                    <div class="row first">
+                        <img src="assets/css.png" alt="css">
+                        <img src="assets/docker.png" alt="docker">
+                        <img src="assets/html.png" alt="html">
+                        <img src="assets/java.png" alt="java">
+                    </div>
+                    <div class="row second">
+                        <img src="assets/postgre.png" alt="postgre">
+                        <img src="assets/python.png" alt="python">
+                        <img src="assets/sql.png" alt="sql">
+                    </div>
+
                 </div>
 
                 <h2>Interest</h2>
@@ -104,7 +122,7 @@
 
     <section id="activities" class="activities-section">
 
-        <div class="activities-title">
+        <div class="section-title">
             <h2>Activities</h2>
             <p>My involvement beyond academics</p>
         </div>
@@ -173,29 +191,31 @@
 
     <section id="achievements" class="achievements-section">
 
-        <div class="achievements-title">
+        <div class="section-title">
             <h2>Achievements</h2>
             <p>Certificates, recognitions, and milestones in my academic & professional journey</p>
         </div>
 
         <div class="achievements-content">
-            <div class="certificate-card">
+            <div class="card">
                 <img src="assets/certificate.png" alt="">
                 <h3>Certificates</h3>
                 <p>All academic and extracurricular certificates</p>
 
                 <div class="button">
-                    <a href="https://drive.google.com/drive/folders/1bsXJfX-oCAPnqiCMtROZcuoq4XBOBwRK?usp=sharing" class="btn primary">View</a>
+                    <a href="https://drive.google.com/drive/folders/1bsXJfX-oCAPnqiCMtROZcuoq4XBOBwRK?usp=sharing"
+                        class="btn primary">View</a>
                 </div>
             </div>
 
-            <div class="achievements-card">
-                <img src="assets/achievement.png" alt="">
+            <div class="card">
+                <img src="assets/achievements.png" alt="">
                 <h3>Achievements</h3>
                 <p>Workshops, events, and participation highlights</p>
 
                 <div class="button">
-                    <a href="https://drive.google.com/drive/folders/1yKuAZcOvn2N1adeccYm9YlNtYsW8Oaq9?usp=sharing" class="btn primary">View</a>
+                    <a href="https://drive.google.com/drive/folders/1yKuAZcOvn2N1adeccYm9YlNtYsW8Oaq9?usp=sharing"
+                        class="btn primary">View</a>
                 </div>
             </div>
 
@@ -205,7 +225,7 @@
 
     <section id="education" class="education-section">
 
-        <div class="education-title">
+        <div class="section-title">
             <h2>Education</h2>
             <p>Educational Milestone</p>
         </div>
@@ -218,7 +238,7 @@
 
     <section id="experience" class="experience-section">
 
-        <div class="experience-title">
+        <div class="section-title">
             <h2>Experience</h2>
             <p>Practical skills developed through learning and hands-on projects</p>
         </div>
@@ -267,21 +287,22 @@
 
     <section id="project" class="project-section">
 
-        <div class="project-title">
+        <div class="section-title">
             <h2>Projects</h2>
             <p>A selection of academic and practical projects developed during my software engineering journey.</p>
         </div>
 
-        <div class="project- content">
+        <div class="project-content">
 
             <div class="upper-content">
                 <div class="project-card">
                     <img src="assets/peigon.png" alt="Pigeon Service">
                     <h3>Pigeon Service Management System</h3>
-                    <p>Terminal-Based System</p>
+                    <p>Terminal-Based System</p> <br>
 
                     <div class="button">
-                        <a href="https://github.com/InduniPalliyaguru/Terminal-Based-Stock-Management-System.git" class="btn outline">View on GitHub</a>
+                        <a href="https://github.com/InduniPalliyaguru/Terminal-Based-Stock-Management-System.git"
+                            class="btn outline">View on GitHub</a>
                     </div>
                 </div>
                 <div class="project-card">
@@ -290,7 +311,8 @@
                     <p>Order & Inventory Management System</p>
 
                     <div class="button">
-                        <a href="https://github.com/InduniPalliyaguru/Super-Market-Layered-Architecture.git" class="btn outline">View on GitHub</a>
+                        <a href="https://github.com/InduniPalliyaguru/Super-Market-Layered-Architecture.git"
+                            class="btn outline">View on GitHub</a>
                     </div>
                 </div>
             </div>
@@ -299,10 +321,11 @@
                 <div class="project-card">
                     <img src="assets/connect4.png" alt="Connect Four">
                     <h3>Connect Four Game</h3>
-                    <p>Logic-Based Game Implementation</p>
+                    <p>Logic-Based Game Implementation</p> <br>
 
                     <div class="button">
-                        <a href="https://github.com/InduniPalliyaguru/Connect-4-Game-.git" class="btn outline">View on GitHub</a>
+                        <a href="https://github.com/InduniPalliyaguru/Connect-4-Game-.git" class="btn outline">View on
+                            GitHub</a>
                     </div>
                 </div>
                 <div class="project-card">
@@ -311,7 +334,8 @@
                     <p>Standalone Desktop Application</p>
 
                     <div class="button">
-                        <a href="https://github.com/InduniPalliyaguru/NRL-bag-Management-System" class="btn outline">View on GitHub</a>
+                        <a href="https://github.com/InduniPalliyaguru/NRL-bag-Management-System"
+                            class="btn outline">View on GitHub</a>
                     </div>
                 </div>
             </div>
@@ -322,7 +346,7 @@
 
     <section id="assignment" class="assignment-section">
 
-        <div class="assignment-title">
+        <div class="section-title">
             <h2>Assignments</h2>
             <p>A curated set of assignments completed as part of this portfolio journey.</p>
         </div>
@@ -333,7 +357,8 @@
                 <div class="card">
                     <div class="card-image card1"></div>
                     <div class="card-footer">
-                        <a href="https://docs.google.com/document/d/1SXB6uTEhBoJ0ARNZWyiCqrM0eKMvyAvMytspntmNUGA/edit?usp=sharing">View</a>
+                        <a
+                            href="https://docs.google.com/document/d/1SXB6uTEhBoJ0ARNZWyiCqrM0eKMvyAvMytspntmNUGA/edit?usp=sharing">View</a>
                     </div>
                 </div>
                 <div class="card">
@@ -410,7 +435,7 @@
 
     <section id="gallery" class="gallery-section">
 
-        <div class="gallery-title">
+        <div class="section-title">
             <h2>Gallery</h2>
             <p>Shared moments</p>
         </div>
@@ -458,6 +483,9 @@
                 <div class="form-group">
                     <textarea placeholder="Message"></textarea>
                 </div>
+                <div class="button">
+                    <a href="#" class="btn primary">Send Message</a>
+                </div>
             </form>
         </div>
 
@@ -468,8 +496,10 @@
                 touch. I'm happy to connect and respond.</p>
 
             <div class="contact-socials">
-                <a href="https://www.instagram.com/duni.2025?igsh=cnRwN3MxcWRqaTlk"> <img src="assets/icon1.png" alt="instergram"></a>
-                <a href="www.linkedin.com/in/induni-palliyaguru-6195a9371"> <img src="assets/icon2.png" alt="linkden"></a>
+                <a href="https://www.instagram.com/duni.2025?igsh=cnRwN3MxcWRqaTlk"> <img src="assets/icon1.png"
+                        alt="instergram"></a>
+                <a href="www.linkedin.com/in/induni-palliyaguru-6195a9371"> <img src="assets/icon2.png"
+                        alt="linkden"></a>
                 <a href="https://github.com/InduniPalliyaguru"> <img src="assets/icon3.png" alt="github"></a>
                 <a href="https://www.facebook.com/share/1BrgRKYiJg/"> <img src="assets/icon4.png" alt="facebook"></a>
             </div>
@@ -497,8 +527,10 @@
             </a>
             <p>© 2026 INDUNI PALLIYAGURU | ALL RIGHTS RESERVED.</p>
             <div class="footer-socials">
-                <a href="https://www.instagram.com/duni.2025?igsh=cnRwN3MxcWRqaTlk"> <img src="assets/instergram.png" alt="instergram"></a>
-                <a href="www.linkedin.com/in/induni-palliyaguru-6195a9371"> <img src="assets/linkden.png" alt="linkden"></a>
+                <a href="https://www.instagram.com/duni.2025?igsh=cnRwN3MxcWRqaTlk"> <img src="assets/instergram.png"
+                        alt="instergram"></a>
+                <a href="www.linkedin.com/in/induni-palliyaguru-6195a9371"> <img src="assets/linkden.png"
+                        alt="linkden"></a>
                 <a href="https://github.com/InduniPalliyaguru"> <img src="assets/github.png" alt="github"></a>
                 <a href="https://www.facebook.com/share/1BrgRKYiJg/"> <img src="assets/facebook.png" alt="facebook"></a>
             </div>
