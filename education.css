@@ -1,0 +1,23 @@
+
+
+/* Education section start */
+
+.education-section {
+    padding: 44px 60px;
+    background: white;
+    /* height: 1024px; */
+    min-height: 100vh;
+    height: auto;
+    align-items: center;
+}
+
+.education-section .section-title h2 {
+    border-bottom: 3px solid #1F6F78;
+    display: inline-block;
+}
+
+.education-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}

@@ -1,0 +1,131 @@
+
+/* About section start */
+
+.about-section {
+    padding: 44px 60px;
+    background: white;
+    /* height: 1024px; */
+    min-height: 100vh;
+    height: auto;
+    align-items: center;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-title h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #111111;
+    padding-bottom: 1px;
+}
+
+.section-title p {
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35%;
+    color: #666666;
+    padding-top: 10px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-left {
+    flex: 1;
+}
+
+.about-left h2 {
+    padding: 65px 0 1px;
+    font-family: "Montagu Slab", serif;
+    font-weight: 500;
+    font-size: 28px;
+    border-bottom: 3px solid #1F6F78;
+    display: inline-block;
+    line-height: 35px;
+}
+
+.about-left p {
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 33px;
+    margin-left: 57px;
+    width: 400px;
+}
+
+.skills .row {
+    display: flex;
+    gap: 12px;
+}
+
+.skills .row .second {
+    justify-content: center;
+}
+
+.skills .row img {
+    transition: all 0.5s linear;
+}
+
+.skills .row img:hover {
+    transform: scale(1.1);
+}
+
+.interest {
+    display: flex;
+    margin-top: 18px;
+    margin-left: 10px;
+    gap: 46px;
+}
+
+.interest .interest-card {
+    background-color: white;
+    width: 410px;
+    height: 162px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 22px;
+    align-content: center;
+    text-align: center;
+}
+
+.interest-card h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    color: #1F6F78;
+}
+
+.interest-card p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #666666;
+}
+
+.about-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-right img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    transform: translate(-100px);
+}

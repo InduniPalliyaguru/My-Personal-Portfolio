@@ -1,0 +1,135 @@
+
+/* Home section start */
+
+.home-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 114px 60px;
+    background: linear-gradient(180deg, rgba(255, 249, 249, 0.35) 0%, rgba(17, 17, 17, 0.35) 100%), url("assets/background\ image.png");
+    /* height: 1020px; */
+    min-height: 100vh;
+    height: auto;
+    align-items: center;
+}
+
+.home-section-left {
+    max-width: 500px;
+}
+
+.home-section-left .text {
+    margin-left: 79px;
+    justify-content: center;
+    align-items: center;
+    width: 544px;
+    height: 335px;
+    transform: translate(0px, 90px);
+}
+
+.hello {
+    font-family: "Linden Hill", serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    line-height: 30px;
+    color: #000;
+}
+
+.home-section-left h1 {
+    font-family: "Mate SC", serif;
+    font-weight: 400;
+    font-size: 90px;
+    text-align: center;
+    line-height: 65px;
+    color: #000;
+}
+
+.role {
+    font-family: "Linden Hill", serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    line-height: 35px;
+    color: #444444;
+}
+
+.home-section-left .button {
+    display: flex;
+    width: 592px;
+    gap: 44px;
+    margin-left: 63px;
+    transform: translate(0px, 110px);
+}
+
+.home-section-left .btn {
+    display: inline-block;
+    width: 274px;
+    height: 68px;
+    padding: 12px 0px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 36px;
+    margin-right: 15px;
+    text-align: center;
+    font-family: "Lisu Bosa", serif;
+    font-weight: 400;
+
+}
+
+.home-section-left .primary {
+    background-color: #1F6F78;
+    color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.5s;
+}
+
+.home-section-left .primary:hover {
+    background-color: rgb(31, 111, 120, 0.75);
+}
+
+.home-section-left .primary:active {
+    background-color: #1F6F78;
+}
+
+.home-section-left .outline {
+    background-color: none;
+    border: 2px solid #1F6F78;
+    color: #1F6F78;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.5s;
+}
+
+.home-section-left .outline:hover {
+    background-color: rgba(0, 0, 0, 0.10);
+}
+
+.home-section-left .outline:active {
+    background-color: none;
+}
+
+.home-section-left .socials {
+    display: flex;
+    gap: 27px;
+    margin-left: 12px;
+    text-decoration: none;
+    transform: translate(0px, 270px);
+
+}
+
+.home-section-left .socials  {
+    transition: all 1 ease-in;
+}
+
+.home-section-left .socials :hover {
+    transform: scale(1.1);
+}
+
+.home-section-left .socials :active {
+    transform: scale(1);
+}
+
+.home-section-right img {
+    max-width: 100%;
+    /* height: auto; */
+    object-fit: cover;
+    transform: translate(0px, 119px);
+}

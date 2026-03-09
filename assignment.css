@@ -1,0 +1,68 @@
+
+/* Assignment section start */
+
+.assignment-section {
+    padding: 44px 60px;
+    background: rgba(17, 17, 17, 0.25);
+    /* height: 1024px; */
+    min-height: 100vh;
+    height: auto;
+    align-items: center;
+}
+
+.assignment-section .section-title h2 {
+    font-weight: 700;
+}
+
+.assignment-section .assignment-content {
+    /* display: flex; */
+    margin-top: 40px;
+    /* margin-left: 135px; */
+
+}
+
+.assignment-content .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: repeat(auto-fit, (4, 1fr)); */
+    gap: 40px;
+}
+
+.assignment-content .grid .card {
+    background-image: url("assets/assignImage.png");
+    width: 78%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: block;
+    transition: all 0.5s ease-in;
+}
+
+.assignment-content .grid .card:hover {
+    transform: scale(0.9);
+}
+
+
+.assignment-content .grid .card .card-footer {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 46px;
+    border-radius: 0 0px 20px 20px;
+    margin-top: 204px;
+    justify-content: center;
+    align-items: center;
+}
+
+.assignment-content .grid .card .card-footer a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #1F717A;
+    transition: color 0.5s linear;
+}
+
+.assignment-content .grid .card .card-footer a:hover {
+    color: rgba(10, 10, 10, 1);
+}

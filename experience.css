@@ -1,0 +1,68 @@
+
+/* Experience section start */
+
+.experience-section {
+    padding: 44px 60px;
+    background: white;
+    /* height: 1024px; */
+    min-height: 100vh;
+    height: auto;
+    align-items: center;
+}
+
+.experience-section .section-title h2 {
+    border-bottom: 3px solid #1F6F78;
+    display: inline-block;
+}
+
+.experience-content {
+    display: block;
+    margin-top: 100px;
+    margin-left: 14px;
+
+}
+
+.experience-content .content-top,
+.experience-content .content-bottom {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: all 1s ease-in;
+}
+
+.experience-card {
+    background: white;
+    width: 28%;
+    height: 16em;
+    align-content: baseline;
+    padding: 15px;
+    margin: 30px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.35);
+}
+
+.experience-content .content-bottom .experience-card:hover {
+    transform: translateY(-15px);
+}
+
+.experience-content .content-top .experience-card:hover {
+    transform: translateY(-15px);
+}
+
+.experience-card h3 {
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+    color: #111111;
+    margin-top: 15px;
+}
+
+.experience-card p {
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #666666;
+    margin-top: 15px;
+}
