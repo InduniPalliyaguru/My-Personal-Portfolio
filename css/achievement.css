@@ -1,4 +1,3 @@
-
 /* Achievement section start */
 
 .achievements-section {
@@ -78,4 +77,14 @@
 
 .achievements-section .primary:active {
     background-color: #1F6F78;
+}
+
+/* Responsive Part */
+
+@media (max-width:1440px) {
+
+    .achievements-content {
+        gap: 120px;
+        margin: 100px auto;
+    }
 }

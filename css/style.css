@@ -21,6 +21,7 @@ header {
 .navbar img {
     transition: all 0.5s linear;
 }
+
 .navbar img:hover {
     background-color: rgba(248, 247, 247, 0.1);
     transform: scale(0.9);
@@ -40,6 +41,7 @@ header {
 .navbar nav a:hover {
     color: #1F6F78;
 }
+
 .navbar nav a:active {
     color: white;
 }
@@ -68,6 +70,7 @@ footer {
 .footer-content a img {
     transition: all 1s linear;
 }
+
 .footer-content a img:hover {
     transform: scale(0.9);
 }
@@ -82,4 +85,21 @@ footer {
 
 .footer-socials a img :active {
     transform: scale(1);
+}
+
+
+@media (max-width:1440px) {
+
+    .navbar {
+        padding: 18px 40px;
+    }
+
+    .navbar nav a {
+        font-size: 22px;
+        margin-left: 30px;
+    }
+
+    .footer-content {
+        padding: 20px 40px;
+    }
 }

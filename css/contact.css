@@ -1,4 +1,3 @@
-
 /* Contact section start */
 
 .contact-section {
@@ -111,9 +110,11 @@
 .contact-section .content-right .contact-socials img {
     transition: all 0.5s ease-in;
 }
+
 .contact-section .content-right .contact-socials img:hover {
     transform: translateY(-6px);
 }
+
 .contact-section .content-right .contact-socials img:active {
     transform: scale(1.1);
 }
@@ -126,4 +127,27 @@
 .contact-section .content-right .contact-details p {
     text-align: left;
     margin-left: 70px;
+}
+
+/* Responsive Part */
+
+@media (max-width:1440px) {
+
+    .contact-section {
+        padding: 40px;
+        gap: 60px;
+    }
+
+    .contact-section .content-left {
+        margin-left: 0;
+    }
+
+    .contact-section .content-right {
+        margin-right: 0;
+    }
+
+    .contact-section .button {
+        width: 100%;
+        margin-left: 0;
+    }
 }

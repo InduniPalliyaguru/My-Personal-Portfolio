@@ -1,4 +1,3 @@
-
 /* Assignment section start */
 
 .assignment-section {
@@ -29,7 +28,7 @@
 }
 
 .assignment-content .grid .card {
-    background-image: url("assets/assignImage.png");
+    background-image: url("../assets/assignImage.png");
     width: 78%;
     height: 100%;
     border-radius: 20px;
@@ -65,4 +64,17 @@
 
 .assignment-content .grid .card .card-footer a:hover {
     color: rgba(10, 10, 10, 1);
+}
+
+/* Responsive Part */
+
+@media (max-width:1440px) {
+    .assignment-content .grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+
+    .assignment-content .grid .card {
+        width: 100%;
+    }
 }
