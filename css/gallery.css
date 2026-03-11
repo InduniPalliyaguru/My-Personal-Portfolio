@@ -71,11 +71,27 @@
 }
 
 @media (max-width: 1024px) {
-    .gallery-section .gallery-content{
-    padding:0px;
+    .gallery-section .gallery-content {
+        padding: 0px;
+    }
+
+    .gallery-section .gallery-content .grid {
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    }
 }
 
-.gallery-section .gallery-content .grid{
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-}
+@media (max-width: 768px) {
+
+    .gallery-section .gallery-content {
+        padding: 30px;
+    }
+
+    .gallery-section .gallery-content .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .gallery-section .gallery-content .grid .card4 {
+        justify-content: center;
+    }
 }

@@ -185,3 +185,41 @@
     margin-left:25%;
 }
 }
+
+@media (max-width: 768px) {
+
+.contact-section{
+flex-direction:column-reverse;
+align-items:center;
+gap:40px;
+}
+
+.contact-section .content-left,
+.contact-section .content-right{
+width:100%;
+margin:0;
+}
+
+.contact-section .button{
+width:90%;
+justify-content:center;
+margin-left:20px;
+}
+
+.contact-section .content-right h2 {
+    font-size: 54px;
+}
+
+.contact-section .content-right p {
+    font-size: 20px;
+}
+
+.contact-section .btn {
+    display: inline-block;
+    width: 204px;
+    height: 58px;
+    font-size: 28px;
+    
+
+}
+}

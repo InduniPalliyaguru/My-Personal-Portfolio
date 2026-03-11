@@ -97,3 +97,33 @@
         height: 680px;
     }
 }
+
+@media (max-width: 768px) {
+    .achievements-content{
+flex-direction:column;
+align-items:center;
+gap:40px;
+margin:60px auto;
+}
+
+.achievements-content .card h3 {
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.achievements-content .card p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+
+.achievements-section .btn {
+    width: 220px;
+    font-size: 28px;
+
+}
+
+.achievements-section .button {
+    transform: translate(20px, 150px);
+}
+}

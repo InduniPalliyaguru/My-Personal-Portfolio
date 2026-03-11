@@ -89,3 +89,15 @@
         width: 89%;
     }
 }
+
+@media (max-width: 768px) {
+    .assignment-content .grid {
+        margin-left: 40px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .assignment-content .grid .card {
+        width: 80%;
+    }
+}

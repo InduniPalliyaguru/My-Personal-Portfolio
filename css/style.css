@@ -12,7 +12,7 @@ header {
 }
 
 body {
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -120,4 +120,53 @@ footer {
     }
 
 
+}
+
+@media (max-width:768px) {
+    .navbar {
+
+        gap: 10px;
+        padding: 5px 20px;
+    }
+
+    .navbar img {
+        width: 50px;
+    }
+
+    .navbar nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar nav a {
+        font-size: 16px;
+        margin: 10px;
+    }
+
+
+.footer-content{
+text-align:center;
+gap:0px;
+height:auto;
+height: 10vh;
+    padding: 10px 40px;
+}
+
+.footer-content p{
+margin-bottom:0;
+font-size: 10px;
+}
+.footer-socials a img {
+    transform: scale(0.8);
+}
+}
+
+.footer-content {
+    background-color: #1F6F78;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 114px;
+    padding: 20px 60px;
 }
