@@ -75,6 +75,17 @@
     }
 
     .assignment-content .grid .card {
-        width: 100%;
+        width: 85%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .assignment-content .grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .assignment-content .grid .card {
+        width: 89%;
     }
 }

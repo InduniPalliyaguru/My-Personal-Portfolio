@@ -115,12 +115,34 @@
 
     .project-content .upper-content {
         gap: 150px;
-        margin-right: 0;
+        /* margin-right: 0; */
     }
 
     .project-content .bottom-content {
         gap: 150px;
-        margin-left: 0;
+        margin-left: 50;
         margin-top: 50px;
     }
+}
+
+@media (max-width: 1024px) {
+    .project-content .upper-content,
+.project-content .bottom-content{
+    gap:250px;
+    margin:10px;
+}
+
+.project-card{
+    width:260px;
+    height:auto;
+}
+
+.project-card img {
+    width: 220px;
+}
+
+.project-section .button {
+    display: flex;
+    margin-top: 50px;
+}
 }

@@ -21,3 +21,19 @@
     justify-content: center;
     margin-top: 50px;
 }
+
+.education-content img {
+    width: 1100;
+    height: 700;
+}
+
+@media (max-width: 1024px) {
+    .education-content{
+    flex-direction:column;
+}
+
+.education-content img {
+    width: 880;
+    height: 570;
+}
+}

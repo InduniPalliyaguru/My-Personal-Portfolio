@@ -93,3 +93,19 @@
         width: 85%;
     }
 }
+
+@media (max-width: 1024px) {
+    .timeline {
+        width: 100%;
+        margin: 60px auto;
+    }
+
+    .timeline-left {
+        width: 180px;
+    }
+
+    .timeline-card {
+        width: 100%;
+        gap: 20px;
+    }
+}

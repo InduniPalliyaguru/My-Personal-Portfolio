@@ -149,3 +149,42 @@
         gap: 30px;
     }
 }
+
+@media (max-width: 1024px) {
+    .about-content {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .about-left {
+        text-align: left;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .interest {
+        align-items: center;
+        gap: 25px;
+    }
+
+    .interest .interest-card {
+        width: 80%;
+    }
+
+    .about-right img {
+        margin-top: 50px;
+        margin-left: 45%;
+        max-width: 80%;
+        height: auto;
+        object-fit: cover;
+
+
+    }
+}

@@ -3,9 +3,11 @@
 .gallery-section {
     padding: 44px 60px;
     background: linear-gradient(rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.5)), url("../assets/galleryBack.png");
-    /* height: 1024px; */
     min-height: 100vh;
     height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     align-items: center;
 }
 
@@ -35,6 +37,7 @@
 
 .gallery-section .gallery-content .grid img {
     transition: all 1s ease-in-out;
+    transform: scale(0.95);
 }
 
 .gallery-section .gallery-content .grid img:hover {
@@ -65,4 +68,14 @@
     .gallery-section .gallery-content .grid {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
+}
+
+@media (max-width: 1024px) {
+    .gallery-section .gallery-content{
+    padding:0px;
+}
+
+.gallery-section .gallery-content .grid{
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
 }

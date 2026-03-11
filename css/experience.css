@@ -71,6 +71,18 @@
 @media (max-width:1440px) {
 
     .experience-card {
-        width: 30%;
+        width: 25%;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .experience-content .content-top,
+    .experience-content .content-bottom {
+        gap: 30px;
+    }
+
+    .experience-card {
+        width: 40%;
     }
 }
