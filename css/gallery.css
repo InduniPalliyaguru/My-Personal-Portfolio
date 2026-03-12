@@ -44,11 +44,11 @@
     transform: scale(0.9);
 }
 
-.gallery-section .gallery-content .grid .card3 {
+.gallery-section .gallery-content .grid .card1 {
     grid-column: span 2;
 }
 
-.gallery-section .gallery-content .grid .card5 {
+.gallery-section .gallery-content .grid .card6 {
     grid-column: span 2;
     align-content: end;
 }
@@ -56,6 +56,8 @@
 .gallery-section .gallery-content .grid .card4 {
     align-content: end;
 }
+
+
 
 /* Responsive Part */
 
@@ -90,8 +92,8 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-
     .gallery-section .gallery-content .grid .card4 {
         justify-content: center;
     }
 }
+
