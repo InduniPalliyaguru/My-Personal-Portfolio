@@ -113,3 +113,11 @@
     }
 
 }
+
+@media (max-width: 376px) {
+
+    .gallery-section .gallery-content {
+        padding: 0%;
+    }
+
+}

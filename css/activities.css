@@ -175,3 +175,14 @@
         line-height: 1.1;
     }
 }
+
+@media (max-width: 426px) {
+    .timeline {
+        width: 100%;
+        margin: 9% auto;
+    }
+
+    .timeline-card img {
+        width: 28%;
+    }
+}

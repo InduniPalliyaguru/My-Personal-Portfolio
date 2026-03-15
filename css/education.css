@@ -50,3 +50,12 @@
         display: none;
     }
 }
+
+@media (max-width: 376px) {
+    .education-content {
+        width: 95%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+}

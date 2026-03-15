@@ -260,7 +260,7 @@
     }
 
     .contact-section .content-right .contact-details p {
-        font: 100%
+        font-size: 100%;
     }
 
     .contact-section .btn {
@@ -286,5 +286,30 @@
     .form-group textarea {
         height: 20vh;
         resize: none;
+    }
+}
+
+@media (max-width: 376px) {
+
+    .contact-section .content-right .contact-details {
+        margin-right: 1%;
+    }
+
+    .contact-section .content-right .contact-details p {
+        font-size: 90%;
+    } 
+
+    .contact-section .btn {
+        width: 75%;
+
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 90%;
+    }
+
+    .form-group textarea {
+        height: 18vh;
     }
 }

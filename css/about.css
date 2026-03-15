@@ -291,3 +291,15 @@
 
 
 }
+
+@media (max-width: 376px) {
+
+    .about-content .about-left p {
+        font-size: 90%;
+    }
+    .skills .row img {
+        width: 17%;
+
+    }
+
+}

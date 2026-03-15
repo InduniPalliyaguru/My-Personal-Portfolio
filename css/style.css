@@ -198,3 +198,17 @@ footer {
         width: 15%;
     }
 }
+
+@media (max-width: 376px) {
+
+    .navbar nav a {
+        font-size: 11px;
+        margin: 4px;
+    }
+
+    .footer-content p {
+        margin-top: 9vh;
+        transform: translate(10%);
+    }
+
+}

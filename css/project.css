@@ -188,3 +188,11 @@
     }
 
 }
+
+@media (max-width: 376px) {
+
+    .project-content .bottom-content {
+        margin-top: 21%;
+    }
+
+}
