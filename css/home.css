@@ -64,8 +64,8 @@
 
 .home-section-left .btn {
     display: inline-block;
-    width: 274px;
-    height: 68px;
+    width: 100%;
+    height: 9vh;
     padding: 12px 0px;
     border-radius: 50px;
     text-decoration: none;
@@ -241,25 +241,26 @@
     .home-section-left h1 {
         font-size: 65px;
         line-height: 0.8;
-        
+
     }
 
-        .home-section-left p {
+    .home-section-left p {
         font-size: 30px;
         line-height: 1;
     }
 
     .hello {
-    
-    font-size: 20px;
-    line-height: 0.8;
-}
 
-        .home-section-left {
+        font-size: 20px;
+        line-height: 0.8;
+    }
+
+    .home-section-left {
         display: flex;
         flex-direction: column;
 
     }
+
     .home-section-left .button {
         /* flex-direction: column; */
         align-items: center;
@@ -277,9 +278,72 @@
     .home-section-right img {
         margin-top: 0px;
         max-width: 100%;
-    height: auto;
-    object-fit: cover;
-    transform: translate(0px, 125px);
+        height: auto;
+        object-fit: cover;
+        transform: translate(0px, 125px);
 
     }
+}
+
+@media (max-width: 426px) {
+
+    .home-section {
+        /* flex-direction:column; */
+        padding: 80px 20px 0px 20px;
+        text-align: center;
+    }
+
+    .home-section-left .text {
+        width: 100%;
+        margin: 0;
+        transform: none;
+    }
+
+    .home-section-left h1 {
+        font-size: 45px;
+        line-height: 0.8;
+
+    }
+
+    .home-section-left p {
+        font-size: 20px;
+        line-height: 1.1;
+    }
+
+    .hello {
+
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .home-section-left .button {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        margin-top: -180px;
+        transform: none;
+    }
+
+    .home-section-left .btn {
+        width: 100%;
+        font-size: 26px;
+    }
+
+    .home-section-left .socials {
+        justify-content: center;
+        transform: none;
+        margin-top: 20px;
+
+    }
+
+    .home-section-left .socials a,
+    .home-section-left .socials img {
+        width: 80%;
+    }
+
+    .home-section-right img {
+        transform: none;
+        margin-bottom: -4px;
+    }
+
 }

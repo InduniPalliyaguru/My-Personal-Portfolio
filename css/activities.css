@@ -145,3 +145,33 @@
         line-height: 23px;
     }
 }
+
+@media (max-width: 426px) {
+    .timeline {
+        width: 100%;
+        margin: 10% auto;
+    }
+
+    .timeline-card {
+        width: 120%;
+    }
+
+    .timeline-card img {
+        width: 30%;
+    }
+
+    .card-content h3 {
+        font-size: 110%;
+        line-height: 1;
+    }
+
+    .year {
+        font-size: 110%;
+        line-height: 1;
+    }
+
+    .card-content p {
+        font-size: 90%;
+        line-height: 1.1;
+    }
+}

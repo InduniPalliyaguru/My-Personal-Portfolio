@@ -1,5 +1,3 @@
-
-
 /* Education section start */
 
 .education-section {
@@ -28,12 +26,27 @@
 }
 
 @media (max-width: 1024px) {
-    .education-content{
-    flex-direction:column;
+    .education-content {
+        flex-direction: column;
+    }
+
+    .education-content img {
+        width: 880;
+        height: 570;
+    }
 }
 
-.education-content img {
-    width: 880;
-    height: 570;
-}
+@media (max-width: 426px) {
+    .education-content {
+        width: 100%;
+        height: 200vh;
+        background-image: url("../assets/education\ phone\ new.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .education-content img {
+        display: none;
+    }
 }

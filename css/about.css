@@ -198,6 +198,7 @@
         font-size: 15px;
         line-height: 1;
     }
+
     .about-content {
         flex-direction: column-reverse;
         align-items: center;
@@ -230,4 +231,63 @@
     .about-left p {
         font-size: 16px;
     }
+}
+
+@media (max-width: 426px) {
+    .section-title h2 {
+        font-size: 28px;
+    }
+
+    .section-title p {
+        font-size: 13px;
+        line-height: 0.8;
+    }
+
+    .about-section {
+        padding: 5%;
+        padding-right: 5%;
+    }
+
+    .about-left {
+        text-align: left;
+        margin: auto;
+        width: 100%;
+    }
+
+    .about-content .about-left h2 {
+        padding: auto;
+        font-size: 110%;
+        line-height: 20px;
+    }
+
+    .about-content .about-left p {
+        padding: auto;
+        font-size: 100%;
+        line-height: 1.5;
+    }
+
+    .skills {
+        width: 100%;
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .skills .row img {
+        width: 20%;
+
+    }
+
+    .interest .interest-card {
+        width: 90%;
+    }
+
+    .interest .interest-card h3 {
+        font-size: 110%;
+    }
+
+    .interest .interest-card p {
+        font-size: 90%;
+    }
+
+
 }

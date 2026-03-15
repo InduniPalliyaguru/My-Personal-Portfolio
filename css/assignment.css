@@ -101,3 +101,33 @@
         width: 80%;
     }
 }
+
+@media (max-width: 426px) {
+
+    .assignment-content {
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+
+    .assignment-content .grid {
+        margin: auto;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1%;
+    }
+
+    .assignment-content .grid .card {
+        background-size: contain;
+
+
+    }
+
+    .assignment-content .grid .card .card-footer {
+        height: 5vh;
+        margin-top: 90px;
+    }
+
+    .assignment-content .grid .card .card-footer a {
+
+        font-size: 100%;
+    }
+}

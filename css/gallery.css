@@ -30,9 +30,8 @@
 
 .gallery-section .gallery-content .grid {
     display: grid;
-    /* grid-template-columns: repeat(4, 290px); */
-    grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
-    gap: 0px;
+    grid-template-columns: repeat(4, 290px);
+    gap: 1%;
 }
 
 .gallery-section .gallery-content .grid img {
@@ -97,3 +96,20 @@
     }
 }
 
+@media (max-width: 426px) {
+
+    .gallery-section .gallery-content {
+        padding: 1%;
+    }
+
+    .gallery-section .gallery-content .grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1%;
+    }
+
+    .gallery-section .gallery-content .grid img {
+        width: 100%;
+        height: auto;
+    }
+
+}

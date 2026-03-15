@@ -17,7 +17,7 @@
 .experience-content {
     display: block;
     margin-top: 100px;
-    margin-left: 14px;
+    margin-left: 0;
 
 }
 
@@ -35,7 +35,7 @@
     height: 16em;
     align-content: baseline;
     padding: 15px;
-    margin: 30px;
+    margin: 1%;
     border-radius: 16px;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.35);
 }
@@ -97,5 +97,29 @@
 
     .experience-card {
         width: 80%;
+    }
+}
+
+@media (max-width: 426px) {
+
+    .experience-content .content-bottom {
+        margin-top: 10%;
+    }
+
+    .experience-card {
+        width: 100%;
+        padding: auto;
+    }
+
+    .experience-card img {
+        width: 15%;
+    }
+
+    .experience-card h3 {
+        font-size: 110%;
+    }
+
+    .experience-card p {
+        font-size: 100%;
     }
 }
