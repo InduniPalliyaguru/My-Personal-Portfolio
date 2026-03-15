@@ -196,3 +196,25 @@
     }
 
 }
+
+@media (max-width: 320px) {
+    
+    .project-content .bottom-content {
+        margin-top: 30%;
+    }
+
+    .project-card h3 {
+        font-size: 100%;
+        line-height: 1;
+    }
+
+    .project-card p {
+        font-size: 100%;
+        line-height: 1;
+    }
+
+    .project-section .btn {
+        width: 100%;
+        font-size: 100%;
+    }
+}

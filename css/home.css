@@ -383,3 +383,25 @@
     }
 
 }
+
+@media (max-width: 320px) {
+
+    .home-section-left .button {
+        width: 80%;
+    }
+
+    .home-section-left .btn {
+        width: 80%;
+        font-size: 120%;
+    }
+
+    .home-section-left .socials {
+        gap: 0;
+    }
+
+    .home-section-left .socials a,
+    .home-section-left .socials img {
+        width: 65%;
+    }
+
+}

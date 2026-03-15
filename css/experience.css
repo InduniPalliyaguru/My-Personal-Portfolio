@@ -130,3 +130,34 @@
         margin-top: 11%;
     }
 }
+
+@media (max-width: 320px) {
+
+    .experience-section {
+    padding: 40px auto;
+}
+
+    .experience-content {
+        padding: 0;
+    }
+    .experience-content .content-bottom {
+        margin-top: 10%;
+    }
+
+    .experience-card {
+        width: 100%;
+        padding: auto;
+    }
+
+    .experience-card img {
+        width: 15%;
+    }
+
+    .experience-card h3 {
+        font-size: 95%;
+    }
+
+    .experience-card p {
+        font-size: 85%;
+    }
+}

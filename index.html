@@ -12,6 +12,10 @@
         href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lalezar&family=Linden+Hill:ital@0;1&family=Lisu+Bosa:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mate+SC&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/about.css">
@@ -31,13 +35,26 @@
         <a href="#home">
             <img src="assets/logo.png" alt="logo">
         </a>
-        <nav>
+        <nav class="navbar-list">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#education">Resume</a>
             <a href="#project">Work</a>
             <a href="#gallery">Gallery</a>
             <a href="#contact">Contact</a>
+        </nav>
+
+        <i class="fa-solid fa-bars" style="color: #ffffff;" id="burger" aria-hidden="true"></i>
+        <nav class="menu-panel" id="menu-panel-id">
+            <button class="button-close" id="button-close-id">&times;</button>
+            <div class="menu-list">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Resume</a>
+                <a href="#project">Work</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </div>
         </nav>
     </header>
 
@@ -83,11 +100,11 @@
 
             <div class="about-left">
                 <h2>About Me</h2>
-                <p>I am Induni Palliyaguru, a Software Engineering student at IJSE, focused on web development  and
+                <p>I am Induni Palliyaguru, a Software Engineering student at IJSE, focused on web development and
                     UI/UX
-                    design, passionate about building clean and user-friendly applications, continuously  learning
+                    design, passionate about building clean and user-friendly applications, continuously learning
                     new
-                    technologies through practical projects, and aiming to become a skilled software  engineer who
+                    technologies through practical projects, and aiming to become a skilled software engineer who
                     contributes to meaningful digital solutions.</p>
 
                 <h2>Skills</h2>
@@ -241,7 +258,7 @@
         </div>
 
         <div class="education-content">
-            <img src="assets/edu.png" alt="Education Timeline" >
+            <img src="assets/edu.png" alt="Education Timeline">
         </div>
 
     </section>
@@ -368,7 +385,8 @@
                     <div class="card-image card1"></div>
                     <div class="card-footer">
                         <a
-                            href="https://docs.google.com/document/d/1SXB6uTEhBoJ0ARNZWyiCqrM0eKMvyAvMytspntmNUGA/edit?usp=sharing">View 01</a>
+                            href="https://docs.google.com/document/d/1SXB6uTEhBoJ0ARNZWyiCqrM0eKMvyAvMytspntmNUGA/edit?usp=sharing">View
+                            01</a>
                     </div>
                 </div>
                 <div class="card">
@@ -548,6 +566,7 @@
 
     </footer>
 
+    <script src="js/MenuPanel.js"></script>
 </body>
 
 </html>

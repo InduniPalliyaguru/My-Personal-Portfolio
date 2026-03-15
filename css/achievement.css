@@ -186,3 +186,25 @@
     }
 
 }
+
+@media (max-width: 320px) {
+
+    .achievements-content .card {
+        height: 45vh;
+        width: 100%;
+    }
+
+    .achievements-section .btn {
+        width: 55%;
+        font-size: 100%;
+    }
+
+    .achievements-content .card h3 {
+        font-size: 100%;
+    }
+
+    .achievements-content .card p {
+        font-size: 80%;
+    }
+
+}

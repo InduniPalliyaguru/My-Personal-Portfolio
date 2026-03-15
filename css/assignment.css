@@ -148,7 +148,7 @@
     .assignment-content .grid .card {
         background-size: contain;
         width: 100%;
-        
+
     }
 
     .assignment-content .grid .card .card-footer {
@@ -156,4 +156,27 @@
         margin-top: 90px;
     }
 
+}
+
+@media (max-width: 320px) {
+
+    .assignment-content {
+        margin-bottom: 75%;
+    }
+
+    .assignment-content .grid {
+        margin: auto;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5%;
+    }
+
+    .assignment-content .grid .card {
+        background-size: contain;
+        width: 100%;
+    }
+
+    .assignment-content .grid .card .card-footer {
+        height: 4vh;
+        margin-top: 70px;
+    }
 }

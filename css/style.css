@@ -53,6 +53,66 @@ body {
     color: white;
 }
 
+/* menu Panel */
+
+#burger {
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-panel {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    color: white;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transition: right 0.5s ease-in-out;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start; */
+}
+
+.menu-panel .menu-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* 
+.menu-panel ul {
+  list-style: none;
+  padding: 50px 20px;
+}
+.menu-panel ul li {
+  margin-bottom: 16px;
+}
+.menu-panel ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.menu-panel ul li a:hover{
+  color: #fccd2a;
+  cursor: pointer;
+} */
+
+.button-close {
+    background: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    border: none;
+}
+
 footer {
     width: 100%;
     z-index: 1000;
@@ -138,8 +198,9 @@ footer {
 
     .navbar nav {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        /* flex-wrap: wrap; */
+        justify-content: flex-start;
+
     }
 
     .navbar nav a {
@@ -147,6 +208,24 @@ footer {
         margin: 10px;
     }
 
+    .navbar .navbar-list {
+        display: none;
+    }
+
+    #burger {
+        display: block;
+    }
+
+    .menu-panel .menu-list {
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: flex-start;
+        margin-top: 40px;
+    }
+
+    .menu-panel.active {
+        right: 0;
+    }
 
     .footer-content {
         text-align: center;
@@ -204,6 +283,20 @@ footer {
     .navbar nav a {
         font-size: 11px;
         margin: 4px;
+    }
+
+    .footer-content p {
+        margin-top: 9vh;
+        transform: translate(10%);
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .navbar nav a {
+        font-size: 10px;
+        margin: 2px;
     }
 
     .footer-content p {
