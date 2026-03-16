@@ -1,9 +1,8 @@
 /* Activities section start */
 
 .activities-section {
-    padding: 44px 60px;
+    padding: 6% 60px;
     background: rgba(17, 17, 17, 0.25);
-    /* height: 1024px; */
     min-height: 100vh;
     height: auto;
     align-items: center;
@@ -84,6 +83,7 @@
 /* Responsive Part */
 
 @media (max-width:1440px) {
+
     .timeline {
         width: 100%;
         margin: 80px auto;
@@ -95,6 +95,7 @@
 }
 
 @media (max-width: 1024px) {
+
     .timeline {
         width: 100%;
         margin: 60px auto;
@@ -112,6 +113,7 @@
 
 
 @media (max-width: 768px) {
+
     .timeline {
         width: 100%;
         margin: 40px auto;
@@ -147,6 +149,7 @@
 }
 
 @media (max-width: 426px) {
+
     .timeline {
         width: 100%;
         margin: 10% auto;
@@ -177,6 +180,7 @@
 }
 
 @media (max-width: 426px) {
+
     .timeline {
         width: 100%;
         margin: 9% auto;
@@ -188,7 +192,7 @@
 }
 
 @media (max-width: 320px) {
-    
+
     .timeline {
         width: 100%;
         margin: 9% auto;

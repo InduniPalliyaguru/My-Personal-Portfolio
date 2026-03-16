@@ -1,9 +1,8 @@
 /* Education section start */
 
 .education-section {
-    padding: 44px 60px;
+    padding: 6% 60px;
     background: white;
-    /* height: 1024px; */
     min-height: 100vh;
     height: auto;
     align-items: center;
@@ -26,6 +25,7 @@
 }
 
 @media (max-width: 1024px) {
+
     .education-content {
         flex-direction: column;
     }
@@ -37,6 +37,7 @@
 }
 
 @media (max-width: 426px) {
+
     .education-content {
         width: 100%;
         height: 200vh;
@@ -52,12 +53,12 @@
 }
 
 @media (max-width: 376px) {
+
     .education-content {
         width: 95%;
         margin-top: 0;
         margin-bottom: 0;
     }
-
 }
 
 @media (max-width: 320px) {

@@ -1,9 +1,8 @@
 /* Experience section start */
 
 .experience-section {
-    padding: 44px 60px;
+    padding: 6% 60px;
     background: white;
-    /* height: 1024px; */
     min-height: 100vh;
     height: auto;
     align-items: center;
@@ -18,7 +17,6 @@
     display: block;
     margin-top: 100px;
     margin-left: 0;
-
 }
 
 .experience-content .content-top,
@@ -134,12 +132,13 @@
 @media (max-width: 320px) {
 
     .experience-section {
-    padding: 40px auto;
-}
+        padding: 40px auto;
+    }
 
     .experience-content {
         padding: 0;
     }
+
     .experience-content .content-bottom {
         margin-top: 10%;
     }

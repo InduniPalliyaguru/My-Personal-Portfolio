@@ -3,9 +3,8 @@
 .home-section {
     display: flex;
     justify-content: space-between;
-    padding: 50px 60px;
+    padding: 6% 60px;
     background: linear-gradient(180deg, rgba(255, 249, 249, 0.35) 0%, rgba(17, 17, 17, 0.35) 100%), url("../assets/background\ image.png");
-    /* height: 1020px; */
     min-height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -74,7 +73,6 @@
     text-align: center;
     font-family: "Lisu Bosa", serif;
     font-weight: 400;
-
 }
 
 .home-section-left .primary {
@@ -114,7 +112,6 @@
     margin-left: 12px;
     text-decoration: none;
     transform: translate(0px, 220px);
-
 }
 
 .home-section-left .socials {
@@ -133,7 +130,7 @@
     max-width: 100%;
     height: auto;
     object-fit: cover;
-    transform: translate(0px, 52px);
+    transform: translate(0px, 11%);
 }
 
 /* Responsive Part */
@@ -141,7 +138,7 @@
 @media (max-width:1440px) {
 
     .home-section {
-        padding: 10px 40px;
+        padding: 6% 40px;
     }
 
     .home-section-left .text {
@@ -171,8 +168,7 @@
     }
 
     .home-section-right img {
-        /* max-width: 500px; */
-        transform: translate(0px, 15px);
+        transform: translate(0px, 10.5%);
     }
 
 }
@@ -180,7 +176,6 @@
 @media (max-width:1024px) {
 
     .home-section {
-        /* flex-direction:column; */
         text-align: center;
         padding: 40px 30px;
 
@@ -196,7 +191,6 @@
         margin-left: 0;
         line-height: 0;
         transform: none;
-
     }
 
     .home-section-left h1 {
@@ -209,8 +203,6 @@
         justify-content: center;
         margin-left: 0;
         transform: none;
-        /* background: red; */
-
     }
 
     .home-section-left .btn {
@@ -232,6 +224,7 @@
 }
 
 @media (max-width: 768px) {
+
     .home-section {
         flex-direction: column;
         text-align: center;
@@ -241,7 +234,6 @@
     .home-section-left h1 {
         font-size: 65px;
         line-height: 0.8;
-
     }
 
     .home-section-left p {
@@ -250,7 +242,6 @@
     }
 
     .hello {
-
         font-size: 20px;
         line-height: 0.8;
     }
@@ -258,11 +249,9 @@
     .home-section-left {
         display: flex;
         flex-direction: column;
-
     }
 
     .home-section-left .button {
-        /* flex-direction: column; */
         align-items: center;
         gap: 20px;
         width: 100%;
@@ -288,7 +277,6 @@
 @media (max-width: 426px) {
 
     .home-section {
-        /* flex-direction:column; */
         padding: 80px 20px 0px 20px;
         text-align: center;
     }
@@ -302,7 +290,6 @@
     .home-section-left h1 {
         font-size: 45px;
         line-height: 0.8;
-
     }
 
     .home-section-left p {
@@ -311,7 +298,6 @@
     }
 
     .hello {
-
         font-size: 20px;
         line-height: 1;
     }

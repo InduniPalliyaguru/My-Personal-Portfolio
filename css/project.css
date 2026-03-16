@@ -1,9 +1,8 @@
 /* Project section start */
 
 .project-section {
-    padding: 44px 60px;
+    padding: 6% 60px;
     background: rgba(17, 17, 17, 0.25);
-    /* height: 1024px; */
     min-height: 100vh;
     height: auto;
     align-items: center;
@@ -115,7 +114,6 @@
 
     .project-content .upper-content {
         gap: 150px;
-        /* margin-right: 0; */
     }
 
     .project-content .bottom-content {
@@ -194,11 +192,10 @@
     .project-content .bottom-content {
         margin-top: 21%;
     }
-
 }
 
 @media (max-width: 320px) {
-    
+
     .project-content .bottom-content {
         margin-top: 30%;
     }

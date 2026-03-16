@@ -1,9 +1,8 @@
 /* Achievement section start */
 
 .achievements-section {
-    padding: 44px 60px;
+    padding: 6% 60px;
     background: rgba(17, 17, 17, 0.25);
-    /* height: 1024px; */
     min-height: 100vh;
     height: auto;
     align-items: center;
@@ -99,6 +98,7 @@
 }
 
 @media (max-width: 768px) {
+
     .achievements-content {
         flex-direction: column;
         align-items: center;
@@ -116,11 +116,9 @@
         line-height: 22px;
     }
 
-
     .achievements-section .btn {
         width: 220px;
         font-size: 28px;
-
     }
 
     .achievements-section .button {
@@ -137,15 +135,13 @@
     }
 
     .achievements-content .card {
-        height: 60vh;
+        height: 65vh;
         width: 100%;
-
     }
 
     .achievements-content .card img {
         width: 60%;
         transform: translate(35%);
-
     }
 
     .achievements-content .card h3 {
@@ -158,11 +154,9 @@
         line-height: 1.5;
     }
 
-
     .achievements-section .btn {
         width: 100%;
         font-size: 110%;
-
     }
 
     .achievements-section .button {
@@ -176,13 +170,11 @@
     .achievements-content .card {
         height: 53vh;
         width: 100%;
-
     }
 
     .achievements-section .btn {
         width: 75%;
         font-size: 110%;
-
     }
 
 }
@@ -200,11 +192,11 @@
     }
 
     .achievements-content .card h3 {
-        font-size: 100%;
+        font-size: 90%;
     }
 
     .achievements-content .card p {
-        font-size: 80%;
+        font-size: 70%;
     }
 
 }

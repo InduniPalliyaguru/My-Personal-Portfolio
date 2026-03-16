@@ -1,7 +1,7 @@
 /* Gallery section start */
 
 .gallery-section {
-    padding: 44px 60px;
+    padding: 6% 60px;
     background: linear-gradient(rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.5)), url("../assets/galleryBack.png");
     min-height: 100vh;
     height: auto;
@@ -22,8 +22,6 @@
 }
 
 .gallery-section .gallery-content {
-    /* display: flex; */
-    /* justify-content: center; */
     margin-top: 10px;
     padding: 80px;
 }
@@ -72,6 +70,7 @@
 }
 
 @media (max-width: 1024px) {
+
     .gallery-section .gallery-content {
         padding: 0px;
     }
@@ -121,3 +120,5 @@
     }
 
 }
+
+@media (max-width: 320px) {}

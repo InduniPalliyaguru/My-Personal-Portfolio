@@ -1,9 +1,8 @@
 /* Assignment section start */
 
 .assignment-section {
-    padding: 44px 60px;
+    padding: 6% 60px;
     background: rgba(17, 17, 17, 0.25);
-    /* height: 1024px; */
     min-height: 100vh;
     height: auto;
     align-items: center;
@@ -14,16 +13,12 @@
 }
 
 .assignment-section .assignment-content {
-    /* display: flex; */
     margin-top: 40px;
-    /* margin-left: 135px; */
-
 }
 
 .assignment-content .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* grid-template-columns: repeat(auto-fit, (4, 1fr)); */
     gap: 40px;
 }
 
@@ -40,7 +35,6 @@
 .assignment-content .grid .card:hover {
     transform: scale(0.9);
 }
-
 
 .assignment-content .grid .card .card-footer {
     display: flex;
@@ -69,6 +63,7 @@
 /* Responsive Part */
 
 @media (max-width:1440px) {
+
     .assignment-content .grid {
         grid-template-columns: repeat(4, 1fr);
         gap: 30px;
@@ -80,6 +75,7 @@
 }
 
 @media (max-width: 1024px) {
+
     .assignment-content .grid {
         grid-template-columns: repeat(3, 1fr);
         gap: 30px;
@@ -91,6 +87,7 @@
 }
 
 @media (max-width: 768px) {
+
     .assignment-content .grid {
         margin-left: 40px;
         grid-template-columns: repeat(2, 1fr);
@@ -117,8 +114,6 @@
 
     .assignment-content .grid .card {
         background-size: contain;
-
-
     }
 
     .assignment-content .grid .card .card-footer {
@@ -127,7 +122,6 @@
     }
 
     .assignment-content .grid .card .card-footer a {
-
         font-size: 100%;
     }
 }
