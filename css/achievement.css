@@ -20,11 +20,15 @@
     background: white;
     padding: 26px;
     width: 322px;
-    height: 685px;
+
+    /* FIX: allow card to grow naturally */
+    height: auto;
+    min-height: 500px;
+
     border-radius: 16px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
 
-    /* FIX: make card layout flexible */
+    /* FIX: Flex layout to push button naturally to bottom */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -57,7 +61,7 @@
 .achievements-section .button {
     width: 260px;
 
-    /* FIX: remove transform and use flex spacing */
+    /* FIX: remove transform and let flex handle spacing */
     transform: none;
     margin-top: auto;
 }
@@ -92,7 +96,6 @@
 /* Responsive Part */
 
 @media (max-width:1440px) {
-
     .achievements-content {
         gap: 120px;
         margin: 100px auto;
@@ -100,16 +103,17 @@
 }
 
 @media (max-width: 1024px) {
-
     .achievements-content .card {
         padding: 28px;
         width: 322px;
-        height: 680px;
+
+        /* FIX: remove fixed height */
+        height: auto;
+        min-height: 500px;
     }
 }
 
 @media (max-width: 768px) {
-
     .achievements-content {
         flex-direction: column;
         align-items: center;
@@ -148,8 +152,11 @@
     }
 
     .achievements-content .card {
-        height: 65vh;
         width: 100%;
+
+        /* FIX: remove fixed height */
+        height: auto;
+        min-height: 500px;
     }
 
     .achievements-content .card img {
@@ -173,31 +180,33 @@
     }
 
     .achievements-section .button {
-        /* FIX: remove translate */
         transform: none;
         margin-top: auto;
     }
 }
 
 @media (max-width: 376px) {
-
     .achievements-content .card {
-        height: 53vh;
         width: 100%;
+
+        /* FIX: remove fixed height */
+        height: auto;
+        min-height: 500px;
     }
 
     .achievements-section .btn {
         width: 75%;
         font-size: 110%;
     }
-
 }
 
 @media (max-width: 320px) {
-
     .achievements-content .card {
-        height: 45vh;
         width: 100%;
+
+        /* FIX: remove fixed height */
+        height: auto;
+        min-height: 500px;
     }
 
     .achievements-section .btn {
@@ -214,9 +223,7 @@
     }
 
     .achievements-section .button {
-        /* FIX: remove translate */
         transform: none;
         margin-top: auto;
     }
-
 }
