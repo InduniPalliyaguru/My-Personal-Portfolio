@@ -164,11 +164,11 @@
 
     .home-section-left .socials {
         justify-content: center;
-        transform: translate(-10px, 200px);
+        transform: translate(-90px, 250px);
     }
 
     .home-section-right img {
-        transform: translate(0px, 10.5%);
+        transform: translate(0px, 11%);
     }
 
 }
@@ -213,7 +213,7 @@
 
     .home-section-left .socials {
         justify-content: center;
-        transform: translate(-10px, 210px);
+        transform: translate(-90px, 180px);
     }
 
     .home-section-right img {
