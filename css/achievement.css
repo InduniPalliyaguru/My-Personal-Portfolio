@@ -104,7 +104,7 @@
 
 @media (max-width: 1024px) {
     .achievements-content .card {
-        padding: 28px;
+        padding: 4%;
         width: 322px;
 
         /* FIX: remove fixed height */
@@ -119,6 +119,10 @@
         align-items: center;
         gap: 40px;
         margin: 60px auto;
+    }
+
+    .achievements-content .card {
+        padding: 8%;
     }
 
     .achievements-content .card h3 {
@@ -153,7 +157,7 @@
 
     .achievements-content .card {
         width: 100%;
-
+        padding: 9%;
         /* FIX: remove fixed height */
         height: auto;
         min-height: 500px;
@@ -175,35 +179,37 @@
     }
 
     .achievements-section .btn {
-        width: 100%;
+        width: 57vw;
         font-size: 110%;
     }
 
     .achievements-section .button {
         transform: none;
         margin-top: auto;
+
     }
 }
 
 @media (max-width: 376px) {
     .achievements-content .card {
         width: 100%;
-
+        padding: 9%;
         /* FIX: remove fixed height */
         height: auto;
         min-height: 500px;
     }
 
     .achievements-section .btn {
-        width: 75%;
+        /* width: 7%; */
         font-size: 110%;
+
     }
 }
 
 @media (max-width: 320px) {
     .achievements-content .card {
         width: 100%;
-
+        padding: 13%;
         /* FIX: remove fixed height */
         height: auto;
         min-height: 500px;
