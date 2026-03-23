@@ -23,6 +23,11 @@
     height: 685px;
     border-radius: 16px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+
+    /* FIX: make card layout flexible */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .achievements-content .card h3 {
@@ -32,7 +37,9 @@
     font-size: 32px;
     line-height: 35px;
     text-align: center;
-    margin-top: auto;
+
+    /* FIX: remove auto push */
+    margin-top: 15px;
 }
 
 .achievements-content .card p {
@@ -42,12 +49,17 @@
     font-size: 20px;
     line-height: 25px;
     text-align: center;
-    margin-top: auto;
+
+    /* FIX: remove auto push */
+    margin-top: 10px;
 }
 
 .achievements-section .button {
     width: 260px;
-    transform: translate(0px, 150px);
+
+    /* FIX: remove transform and use flex spacing */
+    transform: none;
+    margin-top: auto;
 }
 
 .achievements-section .btn {
@@ -60,7 +72,6 @@
     text-align: center;
     font-family: "Lisu Bosa", serif;
     font-weight: 400;
-
 }
 
 .achievements-section .primary {
@@ -122,7 +133,9 @@
     }
 
     .achievements-section .button {
-        transform: translate(20px, 150px);
+        /* FIX: remove translate */
+        transform: none;
+        margin-top: auto;
     }
 }
 
@@ -160,8 +173,9 @@
     }
 
     .achievements-section .button {
+        /* FIX: remove translate */
         transform: none;
-        margin-top: 20%;
+        margin-top: auto;
     }
 }
 
@@ -197,6 +211,12 @@
 
     .achievements-content .card p {
         font-size: 70%;
+    }
+
+    .achievements-section .button {
+        /* FIX: remove translate */
+        transform: none;
+        margin-top: auto;
     }
 
 }
