@@ -9,7 +9,7 @@
 
 An interactive, fully responsive, and elegant **Single-Page Personal Portfolio Website** built as the milestone project for the Web Architecture module. This project marks my official entry into frontend web development, showcasing the integration of structured logic with creative UI/UX design.
 
-🚀 **Live Demo:** [Visit Live Website](https://lnkd.in/gjt3i3N8)  
+🚀 **Live Demo:** [Visit Live Website]([https://lnkd.in/gjt3i3N8](https://induni-palliyaguru.vercel.app/))  
 📂 **Source Code:** [GitHub Repository](https://lnkd.in/gYgAPE-q)
 
 ---
